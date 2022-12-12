@@ -1,7 +1,7 @@
 
 footer {
     margin-top: 30px;
-    background-color: #ddd;
+    background-color: rgb(177, 174, 174);
     padding: 20px;
   }
   
@@ -9,7 +9,7 @@ footer {
     margin-top: 5px;
     display: flex;
     justify-content: flex-end;
-    font-size: 0.9em;
-    color: #444;
+    font-size: 1.5em;
+    color: rgb(26, 26, 26);
   }
   
