@@ -8,6 +8,7 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: green;
+    font-size: 30px;
     }
     
 @media (max-width: 600px) {
