@@ -1,6 +1,6 @@
 
 
-@import '';
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
 
 * {
   margin: 0;
@@ -21,8 +21,6 @@ li {
   list-style: none;
 }
 
-
-/** global classes styling **/
 
 #offers {
   margin-top: 30px;
