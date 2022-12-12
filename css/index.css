@@ -272,9 +272,10 @@ nav>ul {
   flex-direction: row;
   justify-content: center;
 }
+
 .pricing h2 {
-    margin: auto;
-      text-align: center;
+  margin: auto;
+  text-align: center;
 }
 
 .product {
