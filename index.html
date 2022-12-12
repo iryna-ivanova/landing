@@ -1,99 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Open book</title>
+  <title>OpenBook</title>
   <link rel="shortcut icon" href="/img/icon.png" type="image/icon">
-  <link rel="stylesheet" href="css/index.css">
-</head>
+<link rel="stylesheet" href="/css/index.css" />
+     </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img
+            id="header-img"
+            width="50px"
+            src="/img/logo.jpg"
+            alt="openbook logo"
+          />
+        </div>
 
-<body>
-  <div id="page-wrapper">
-    <header id="header">
-      <div class="logo">
-        <img id="header-img" src="/img/logo.jpg" alt="open book">
-      </div>
-      <nav id="nav-bar">
-        <ul>
-          <li><a class="nav-link" href="#offers">We offer</a></li>
-          <li><a class="nav-link" href="#autors">Our autors</a></li>
-          <li><a class="nav-link" href="#pricing">Prices and terms</a></li>
-          <li><a class="nav-link" href="#contacts">Contacts</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="presentation">
-        <h1>OPEN BOOKS</h1>
-        <h2>Online library</h2>
-        <h3>Feedback:</h3>
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#offers">Offers</a></li>
+            <li><a class="nav-link" href="#autors">Our autors</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing and Terms</a></li>
+            <li><a class="nav-link" href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="container"></div>
+
+      <section id="coop">
+        <h1>OpenBook</h1>
+        <h2>Send your email to cooperate:</h2>
         <form id="form" action="#">
-          <input name="email" id="email" type="email" placeholder="Enter your email address" required />
-          <button id="submit" type="submit" class="btn">Send</button>
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email"
+            required
+          />
+          <input id="submit" type="submit" value="SEND" class="btn" />
         </form>
       </section>
-      <section id="offers">
-        <div class="description">
-          <img id="offers-img" src="/img/offers.png" alt="offers lable">
-          <h2>We offer:</h2>
-          <ol>
-            <li>aaaaaaa</li>
-            <li>bbbbbbb</li>
-            <li>ccccccc</li>
-          </ol>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua.
-          </p>
-        </div>
-      </section>
-      <section id="autors">
-        <div class="description">
-          <img id="autors-img" src="/img/writer.png" alt="sheets of paper and a pen">
-          <h2>Our autors:</h2>
-          <ol>
-            <li>aaaaaaa</li>
-            <li>bbbbbbb</li>
-            <li>ccccccc</li>
-          </ol>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua.
-          </p>
-          <iframe src="https://www.youtube.com/watch?v=1_vDikyLYVE&ab_channel=Ukra%D1%97ner" width="680" height="480"
-            allowfullscreen></iframe>
-        </div>
-      </section>
-      <section id="pricing">
-        <div class="services" id="free">
-          <div class="terms">Free:</div>
-          <ol>
-            <li>Lorem ipsum.</li>
-            <li>Lorem ipsum.</li>
-            <li>Lorem ipsum dolor.</li>
-            <li>Lorem ipsum.</li>
-          </ol>
-          <button class="btn">Select</button>
-        </div>
-        <div class="services" id="booking">
-          <div class="level">Booking:</div>
-          <ol>
-            <li>Lorem ipsum.</li>
-            <li>Lorem ipsum.</li>
-            <li>Lorem ipsum dolor.</li>
-            <li>Lorem ipsum.</li>
-          </ol>
-          <button class="btn">Select</button>
-        </div>
-      </section>
-    </main>
-    <footer id="contacts">
-      <h2>Contact us:</h2>
-      <p>Phone: +380xxxxxxxx</p>
-      <p>Email: XXXXXXXXX@gmail.com </p>
-    </footer>
-  </div>
-</body>
 
+      <div class="container">
+        <section id="offers">
+          <div class="grid">
+            <div class="icon"><img class="offers" width="100px" src="/img/offers.png"></div>
+            <div class="desc">
+              <h2>We offer:</h2>
+          <ol>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in</li>
+                </ol>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><img class="writer" width="100px" src="/img/writer.png"/></div>
+            <div class="desc">
+              <h2>Our innovations:</h2>
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in</li>
+              </ul>
+            </div>
+          </div>
+                 </section>
+        <section id="authors">
+          <h2 class="title">Our autors:</h2>
+          <p class="title__desk">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+          <iframe
+            id="video"
+            height="315"
+            src="https://www.youtube.com/watch?v=tn-PwdVDyAY&ab_channel=%D0%A2%D0%B5%D1%80%D0%BD%D0%BE%D0%BF%D1%96%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%B0%D0%9E%D0%A3%D0%9D%D0%91"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </section>
+        <section id="pricing">
+          <div class="product" id="free">
+            <div class="level">Free:</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</p>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="booking">
+            <div class="level">Booking:</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</p>
+            <button class="btn">Select</button>
+          </div>
+                  </section>
+        <footer id="contacts">
+          <ul>
+            <li><a href="#">Phone</a></li>
+            <li><a href="#">Email</a></li>
+             </ul>
+           </footer>
+      </div>
+    </div>
+  </body>
 </html>
